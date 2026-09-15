@@ -11,7 +11,6 @@ import net.sourceforge.tess4j.TesseractException;
 
 public class LectorOCR {
 	
-	
 	public String leerTextoOCR(PDDocument document) {
 		
 		//Valor de DPI del renderizador OCR.
@@ -23,7 +22,7 @@ public class LectorOCR {
 		StringBuilder texto = new StringBuilder();
 		
 		//Ajustamos el path e idioma del tesseract
-		tesseract.setDatapath("D:\\Tesseract\\tessdata");
+		tesseract.setDatapath("tessdata");
 		tesseract.setLanguage("spa");
 		
 		//Ajustamos el modo de segmentación

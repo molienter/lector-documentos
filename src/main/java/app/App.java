@@ -39,10 +39,9 @@ public class App
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-    	
+  
     	scanner.close();
     }
-    
     
     public static void obtenerFechas(String texto){
     	

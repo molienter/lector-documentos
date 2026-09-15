@@ -9,8 +9,6 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 public class LectorPDF {
 	
-	
-	
 	public String leerTexto(File pdf) {
 		
         try (PDDocument document = Loader.loadPDF(pdf)) {
